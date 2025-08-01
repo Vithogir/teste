@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    background-color: aqua;
+    
+};
+
+#foto{
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 5%;
+
+    background-image: url(src/bg-pattern-desktop.svg);
+}
